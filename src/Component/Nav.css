@@ -1,0 +1,47 @@
+.topMiddleBox {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 10px;
+  }
+  
+  .TMBI {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Corrected grid-template-columns value */
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .TMBI > div {
+   
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rosybrown;
+    text-align: start;
+    padding: 10px 5px;
+  }
+  .TMBI > div:last-child{
+    border: none;
+  }
+  
+  .images {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px 3px;
+  }
+  
+  .images img {
+    width: 20px;
+   
+  }
+  .TMBI h2{
+    margin: 0;
+    
+}
+.TMBI p{
+    color: gray;
+    font-weight: 700;
+}
